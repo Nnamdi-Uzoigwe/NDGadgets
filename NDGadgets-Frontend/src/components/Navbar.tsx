@@ -4,10 +4,10 @@ import { Link } from "react-router-dom";
 
 export default function Navbar() {
     return (
-        <div className="px-6 lg:px-60 h-[80px] flex flex-col lg:flex-row items-center justify-between">
+        <div className="px-6 lg:px-60 h-[80px] flex items-center justify-between">
             <div className="text-xl font-semibold">NDGadgets</div>
 
-            <div className="flex gap-14">
+            <div className=" hidden lg:flex gap-14">
                 <div className="flex gap-8 text-sm font-semibold">
                     <Link to="/">HOME</Link>
                     <Link to="/about">ABOUT</Link>

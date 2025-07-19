@@ -16,7 +16,11 @@ export default function HomeCard({ imageSrc, itemName, price  }: cardProps) {
                 <h5 className="text-blue-400">${price}</h5>
             </div>
 
-            <div className="absolute bottom-10 left-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <div className="hidden lg:absolute bottom-10 left-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+                <Button>Add to Cart 🛒</Button>
+            </div>
+
+            <div className="flex lg:hidden my-2">
                 <Button>Add to Cart 🛒</Button>
             </div>
         </div>

@@ -8,7 +8,7 @@ interface cardProps {
 
 export default function HomeCard({ imageSrc, itemName, price  }: cardProps) {
     return (
-        <div className="w-[250px] relative group">
+        <div className="w-[300px] lg:w-[250px] relative group">
             <img src={imageSrc} alt="" />
 
             <div className="flex justify-between items-center mt-2">
@@ -16,7 +16,7 @@ export default function HomeCard({ imageSrc, itemName, price  }: cardProps) {
                 <h5 className="text-blue-400">${price}</h5>
             </div>
 
-            <div className="hidden lg:absolute bottom-10 left-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
+            <div className="hidden lg:block lg:absolute bottom-10 left-10 opacity-0 group-hover:opacity-100 transition-opacity duration-200">
                 <Button>Add to Cart 🛒</Button>
             </div>
 

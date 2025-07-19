@@ -10,6 +10,7 @@ import BlogDetail from './pages/BlogDetail'
 import Checkout from './pages/Checkout'
 import Contact from './pages/Contact'
 import Navbar from './components/Navbar'
+import Footer from './components/Footer'
 
 function App() {
 
@@ -27,6 +28,7 @@ function App() {
           <Route path='/blog/:id' element={<BlogDetail />} />
           <Route path='/contact' element={<Contact />} />
         </Routes>
+        <Footer />
     </Router>
   )
 }

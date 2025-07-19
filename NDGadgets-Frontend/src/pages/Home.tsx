@@ -3,6 +3,7 @@ import Features from "../sections/Home/Features";
 import Hero from "../sections/Home/Hero";
 import MobileSection from "../sections/Home/MobileSection";
 import SaleSection from "../sections/Home/SaleSection";
+import TestimonialSection from "../sections/Home/TestimonialSection";
 import WatchSection from "../sections/Home/WatchSection";
 
 export default function Home() {
@@ -14,6 +15,7 @@ export default function Home() {
             <WatchSection />
             <SaleSection />
             <BlogSection />
+            <TestimonialSection />
         </div>
     )
 }

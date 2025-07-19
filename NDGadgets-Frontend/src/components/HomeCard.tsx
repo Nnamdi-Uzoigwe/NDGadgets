@@ -1,39 +1,3 @@
-// import { ShoppingCart } from "lucide-react"
-// import Button from "./Button"
-// import { useState } from "react"
-
-// interface cardProps {
-//     imageSrc: string,
-//     itemName: string,
-//     price: number
-// }
-
-// export default function HomeCard({ imageSrc, itemName, price  }: cardProps) {
-//     const [isHovered, setIsHovered] = useState(false)
-//     return (
-//         <div className="w-[250px] relative">
-//             <img src={imageSrc}
-//              alt="" 
-//              onMouseEnter={() => setIsHovered(true)} 
-//              onMouseLeave={() => setIsHovered(false)} 
-//              />
-
-//             <div className="flex justify-between items-center">
-//                 <h5>{itemName}</h5>
-//                 <h5 className="text-blue-400">${price}</h5>
-//             </div>
-
-//             {isHovered && (
-//                 <div className={`absolute bottom-10 left-10`}>
-//                     <Button>Add to Cart 🛒</Button>
-//                 </div>
-//             )}
-//         </div>
-//     )
-// }
-
-
-import { ShoppingCart } from "lucide-react"
 import Button from "./Button"
 
 interface cardProps {
